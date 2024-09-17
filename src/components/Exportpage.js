@@ -7,7 +7,7 @@ const ExportPage = () => {
 
   const exportdata = async () => {
     try {
-      const response = await fetch(`http://minexx-api.vercel.app/exportnoauth/16`);
+      const response = await fetch(`https://minexx-api.vercel.app/exportnoauth/16`);
       const responsejson = await response.json();
       
       if (responsejson.success) {
